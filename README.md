@@ -1,88 +1,83 @@
 # 🧠 10FastFingers Typing Bot (250+ WPM)
 
-A Python-based typing automation bot that simulates a human typing at **250+ WPM with 100% accuracy** on the **Top 1000 Typing Challenge** of [10FastFingers.com](https://10fastfingers.com/top1000/english/sc-11/). Great for fun, experiments, or progression trolling.
+A Python-based typing automation bot that simulates human-like typing at **250+ WPM** with **100% accuracy** in the **Top 1000 Typing Challenge** on [10fastfingers.com](https://10fastfingers.com). Built for fun, experimentation, and testing automation techniques.
 
 ---
 
 ## 📦 Features
 
-- ✅ Automated browser launch with Chrome
-- ✅ Types with 250+ WPM accuracy (configurable)
-- ✅ GUI to Start/Stop bot
-- ✅ Realistic typing simulation
-- ✅ 100% correct words, no typos
+- ✅ Launches Chrome browser automatically
+- ✅ Types at configurable speeds (250+ WPM)
+- ✅ CustomTkinter GUI to Start/Stop bot
+- ✅ Human-like typing behavior
+- ✅ Accurate typing — no typos
 
 ---
 
 ## 🖥️ Requirements
 
-Make sure the following are installed on your system:
+Make sure the following are installed:
 
-- Python 3.8 or above  
-- Google Chrome  
-- ChromeDriver (same version as your Chrome)  
-- pip (Python package manager)
+- Python 3.8+
+- Google Chrome (latest)
+- ChromeDriver (same version as your Chrome)
+- pip (Python package installer)
 
 ---
 
-## 🛠️ Installation Guide
+## 🛠 Installation Guide
 
 ### 1. Clone or Download
-
 ```bash
-git clone https://github.com/aliacchere/typingbot/10fastfinger.py
-cd fast-typing-bot
-Or simply download the ZIP and extract it.
+git clone https://github.com/aliacchere/typingbot.git
+cd typingbot
+Or download the ZIP and extract it.
 
-2. Install Python Dependencies
-Install the required libraries using pip:
-
+2. Install Dependencies
 bash
 Copy
 Edit
 pip install selenium pyautogui customtkinter
-3. Add ChromeDriver
-Download ChromeDriver that matches your Chrome version from:
-🔗 https://chromedriver.chromium.org/downloads
+3. Setup ChromeDriver
+Download it from: https://chromedriver.chromium.org/downloads
 
-Place the chromedriver.exe in the same folder as the script.
+Ensure it matches your current Chrome version.
+
+Place chromedriver.exe in the same folder as 10fastfinger.py.
 
 🚀 How to Run
-bash
-Copy
-Edit
-python typing_bot.py
-A GUI window will appear with Start Bot and Stop Bot buttons.
+Run this command or just double click the file name : 10fastfinger.py  make sure that you completed the requirements before runing Thanks.
+python 10fastfinger.py
+A GUI window will appear.
 
-🧠 Usage Instructions
-The bot will automatically open 10FastFingers Top 1000 Test in Chrome.
+Open Top 1000 Typing Test in Chrome.
 
-Manually click Start Typing Test on the website.
+Login with your account then manually goto 1000 typing test and then start any and place your mouse cursor on the blank page where we write the text and then click  start bot and again type just first word it will start working. I hope i able to tell you how to do this.
 
-Then click Start Bot in the GUI.
+Click "Start Typing Test" manually.
 
-The bot will automatically type with 250+ WPM.
+Then press "Start Bot" in the GUI.
 
-Click Stop Bot anytime if needed.
+The bot will begin typing automatically at 250+ WPM.
 
-⚠️ Important Notes
-Make sure Chrome remains in focus during typing.
+You can click "Stop Bot" to pause.
 
-Do not touch mouse or keyboard while the bot is running.
+⚠️ Notes
+Keep Chrome browser in focus.
 
-Works best on a fast PC with a stable Chrome installation.
+Do not move your mouse or keyboard while it's typing.
 
-🎯 Screenshot Example
-
+Works best on stable systems with fast Chrome installations.
 
 
 📌 Disclaimer
-This project is made for educational and entertainment purposes only. Do not use to cheat in competitions or exams. Misuse is your responsibility.
+This project is intended for educational and entertainment purposes only. Do not use this to cheat in exams or competitions. Misuse is your responsibility.
 
 📬 Contact
-Developed by Ghulam Rasool
-📧 contact@grwebdevs.com
-🌐 GR Web Devs
+Developed by: Ghulam Rasool
+📧 Email: contact@grwebdevs.com
+🌐 Website: GR Web Devs
+
 
 📃 License
-This project is licensed under the GPL License.
+Licensed under the GPL-3.0 License.
